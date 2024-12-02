@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "title": "Fullstack Developer",
+            "company": "Freelancing",
+            "tasks": "Building modern web applications with API integration such as landingpages and dashboards",
+            "tags": ["NextJS", "React", "Typescript", "REST", "GraphQL"],
+            "year": "2024"
+        },
+        {
+            "title": "Frontend Engineer",
+            "company": "Apple",
+            "tasks": "Designed and implemented responsive user interfaces for various Apple products, ensuring seamless user experiences across devices.",
+            "tags": ["React", "Typescript", "Redux", "GraphQL"],
+            "year": "2022"
+        },
+        {
+            "title": "Backend Developer",
+            "company": "Microsoft",
+            "tasks": "Developed scalable backend services for Microsoft's cloud platform, enabling efficient data processing and storage for enterprise applications.",
+            "tags": ["Java EE", "Springboot", "REST"],
+            "year": "2020"
+        }
+    ]
+}

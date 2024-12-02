@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "title": "Portfolio Website",
+            "image": "/images/PortfolioWebsite.webp",
+            "link": "",
+            "tags": ["Next.js", "Javascript", "Redux", "MUI"],
+            "text": "A portfolio website with responsive design that highlights professional work and services"
+        },
+        {
+            "title": "Trading App",
+            "image": "/images/TradingApp.webp",
+            "link": "",
+            "tags": ["Next.js", "Typescript", "Tailwind CSS"],
+            "text": "A single-page application with responsive design that highlights professional work"
+        },
+        {
+            "title": "Photo Website",
+            "image": "/images/PhotoWebsite.webp",
+            "link": "",
+            "tags": ["React.js", "Typescript", "Tailwind CSS", "Redux"],
+            "text": "A website to curate and share photos that capture life's most memorable moments."
+        }
+    ]
+}
