@@ -1,25 +1,40 @@
 {
     "data": [
-        {
-            "title": "Fullstack Developer",
-            "company": "Freelancing",
-            "tasks": "Building modern web applications with API integration such as landingpages and dashboards",
-            "tags": ["NextJS", "React", "Typescript", "REST", "GraphQL"],
-            "year": "2024"
-        },
-        {
-            "title": "Frontend Engineer",
-            "company": "Apple",
-            "tasks": "Designed and implemented responsive user interfaces for various Apple products, ensuring seamless user experiences across devices.",
-            "tags": ["React", "Typescript", "Redux", "GraphQL"],
-            "year": "2022"
-        },
-        {
-            "title": "Backend Developer",
-            "company": "Microsoft",
-            "tasks": "Developed scalable backend services for Microsoft's cloud platform, enabling efficient data processing and storage for enterprise applications.",
-            "tags": ["Java EE", "Springboot", "REST"],
-            "year": "2020"
-        }
+      {
+        "year": 2024,
+        "title": "Travel Planner",
+        "company": "Personal Project",
+        "tasks": "Developed an Android application for trip planning using Kotlin, integrated with Firebase Firestore for database management.",
+        "tags": ["Kotlin", "Firebase", "Android"]
+      },
+      {
+        "year": 2024,
+        "title": "AI Weather Prediction",
+        "company": "Personal Project",
+        "tasks": "Built machine learning models for weather prediction using Kaggle datasets, applying advanced algorithms.",
+        "tags": ["Python", "Machine Learning", "Kaggle"]
+      },
+      {
+        "year": 2024,
+        "title": "Fast-Food Ordering System",
+        "company": "Personal Project",
+        "tasks": "Created a fast-food ordering system with Next.js, TypeScript, and React for a seamless user experience.",
+        "tags": ["Next.js", "TypeScript", "React"]
+      },
+      {
+        "year": 2023,
+        "title": "Angular Bookstore",
+        "company": "Personal Project",
+        "tasks": "Developed a single-page application for managing bookstore inventory with Angular and JavaScript.",
+        "tags": ["Angular", "JavaScript", "SPA"]
+      },
+      {
+        "year": 2022,
+        "title": "FIFA Statistics Analysis",
+        "company": "Personal Project",
+        "tasks": "Performed data analysis of FIFA player statistics using Python in Jupyter IDE.",
+        "tags": ["Python", "Data Analysis", "Jupyter"]
+      }
     ]
-}
+  }
+  
