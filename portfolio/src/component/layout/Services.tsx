@@ -1,9 +1,10 @@
 import Service from "@/static/Service";
 import ContactBtn from "../menu/elements/ContactBtn";
+import Image from "next/image";
 
 function Services() {
     return <div id="Services" className="flex text-white min-h-full flex-col items-center bg-slate-800">
-        <img className="w-full h-44" src="/transitions/transition_gradient.svg" alt="transition" />
+        <Image className="w-full h-44" src="/transitions/transition_gradient.svg" alt="transition" />
         <p className="flex text-4xl my-8 justify-center text-white font-bold">Services</p>
         <div className="flex desktop:flex-row mobile:flex-col mobile:items-center flex-grow justify-around text-center">
             <Service hl="Single Page Applications" desc="Development of responsive web apps such as portfolios, landingpages and dashboards" img="/icons/spa.svg" />

@@ -1,8 +1,8 @@
-
 'use client'
 
 import React, { createContext, useState, useContext } from 'react';
 import { GlobalState } from '../types/types.d';
+import { ReactNode } from 'react'; // Dodaj import za ReactNode
 
 const GlobalStateContext = createContext<GlobalState | undefined>(undefined);
 
@@ -14,7 +14,7 @@ export const useGlobalState = (): GlobalState => {
   return context;
 };
 
-export const GlobalStateProvider = ({ children }: {children: any}) => {
+export const GlobalStateProvider = ({ children }: { children: ReactNode }) => { // Koristi ReactNode umesto any
   const [isMenuOpen, setMenuOpen] = useState<boolean>(false);
   const [isModalOpen, setModalOpen] = useState<boolean>(false);
 
@@ -42,6 +42,7 @@ export const GlobalStateProvider = ({ children }: {children: any}) => {
     exitMenu,
     exitModal,
   };
+
   return (
     <GlobalStateContext.Provider value={value}>
       {children}

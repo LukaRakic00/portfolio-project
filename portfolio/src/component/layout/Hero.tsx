@@ -4,6 +4,7 @@ import Arrow from "@/static/Arrow";
 import SocialMedia from "@/static/SocialMedia";
 import Typing from "@/static/Typing";
 import Link from "next/link";
+import Image from "next/image";
 
 function Hero() {
     return <div className="flex items-center flex-col min-h-screen desktop:px-20 mobile:p-6 bg-gradient-to-r from-gradientLeft to-gradientRight">
@@ -21,7 +22,7 @@ function Hero() {
              w-[450px] h-[450px]  
              sm:w-[300px] sm:h-[300px] sm:ml-[10px]"
             >
-                <img
+                <Image
                     className="w-2/5 mobile:w-full mobile:max-w-xl object-contain self-center animate-scalepulse"
                     src="/images/portrait.webp"
                     alt="Portrait"
