@@ -2,7 +2,6 @@
 
 import SocialMedia from "@/static/SocialMedia";
 import Image from "next/image";
-import DownloadButton from "@/static/DownloadButton";
 
 function Footer() {
     return <div className="bg-gradient-to-r from-gradientLeft to-gradientRight">
