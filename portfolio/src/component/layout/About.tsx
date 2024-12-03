@@ -17,7 +17,13 @@ function About() {
 
     return (
         <div className="bg-slate-800" id="About">
-            <Image className="w-full h-44" src="/transitions/transition_gradient.svg" alt="transition" />
+            <Image
+                src="/transitions/transition_gradient.svg"
+                alt="transition"
+                width={1920} // Postavite željenu širinu
+                height={400} // Postavite željenu visinu
+                className="object-cover" // Ovo će zameniti `className` za CSS svojstva
+            />
             <div className="flex justify-center items-center text-white">
                 <div className="flex flex-row w-full">
                     <div className="flex desktop:w-1/2 mobile:w-full mobile:p-4 flex-col desktop:p-20">
@@ -29,6 +35,8 @@ function About() {
                                     key={index}
                                     src={vectorPath}
                                     alt={`Vector ${index + 1}`}
+                                    width={64} // Dodato
+                                    height={64} // Dodato
                                     className="w-16 h-16 mx-4 transform transition duration-500 ease-in-out hover:scale-110 hover:animate-pulse"
                                 />
                             ))}

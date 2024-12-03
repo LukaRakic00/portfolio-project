@@ -1,9 +1,18 @@
+'use client'
+
 import SocialMedia from "@/static/SocialMedia";
 import Image from "next/image";
+import DownloadButton from "@/static/DownloadButton";
 
 function Footer() {
     return <div className="bg-gradient-to-r from-gradientLeft to-gradientRight">
-        <Image className="w-full h-44" src="/transitions/transition_grey.svg" alt="transition" />
+        <Image
+            src="/transitions/transition_grey.svg"
+            alt="transition"
+            layout="responsive"
+            width={1920} // Originalna širina slike
+            height={200} // Odnos visine prema širini (možete prilagoditi)
+        />
         <footer className="flex flex-col items-center">
             <div className="pt-5">
                 <SocialMedia size={35} />
