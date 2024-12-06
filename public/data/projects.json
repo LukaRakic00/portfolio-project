@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "title": "Travel Planner App",
+            "image": "/images/trips.webp",
+            "link": "https://github.com/LukaRakic00/TravelPlannerApp",
+            "tags": ["Android development", "Android Studio", "Kotlin", "MVP"],
+            "text": "Travel Planner App is an Android app that helps users efficiently plan and manage their travel itineraries and destinations."
+        },
+        {
+            "title": "AI project",
+            "image": "/images/AI.webp",
+            "link": "https://github.com/LukaRakic00/AI-Project",
+            "tags": ["AI", "Machine learning", "PyCharm", "Jupyter Notebook", "Python"],
+            "text": "This AI project showcases implementations of various artificial intelligence algorithms and models for different problem domains."
+        }, 
+        {
+            "title": "Portfolio Website",
+            "image": "/images/PortfolioWebsite.webp",
+            "link": "https://github.com/LukaRakic00/portfolio-project",
+            "tags": ["Next.js", "Typescript", "JavaScript", "Tailwind CSS"],
+            "text": "A portfolio website with responsive design that highlights professional work and services"
+        },
+        {
+            "title": "Food Next App",
+            "image": "/images/food.webp",
+            "link": "https://github.com/LukaRakic00/food-next-app",
+            "tags": ["Next.js", "Typescript"],
+            "text": "A recipe web app that helps users create, organize, and share their favorite dishes with step-by-step instructions."
+        },
+
+        {
+            "title": "Development of a database for managing bank accounts",
+            "image": "/images/oracle.webp",
+            "link": "https://github.com/LukaRakic00/Oracle",
+            "tags": ["Oracle", "APEX"],
+            "text": "Worked on a team project developing a database for managing bank accounts using Oracle APEX, focusing on efficient user account management."
+        }, 
+        {
+            "title": "Book Angular App",
+            "image": "/images/book.webp",
+            "link": "https://github.com/LukaRakic00/AngularBookstore-Project",
+            "tags": ["Angular.js", "JavaScript"],
+            "text": "A book ordering web app that allows users to browse, search, and add books to their cart for seamless shopping."
+        }
+       
+    ]
+}
