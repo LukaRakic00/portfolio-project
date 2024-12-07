@@ -32,4 +32,4 @@ Welcome to my **Portfolio Website**! This project is built using **Next.js**, **
 
 ## **Screenshot**
 
-![Portfolio Website Screenshot](./portfolio.webp)
+![Portfolio Website Screenshot](public/portfolio.webp)
